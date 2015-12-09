@@ -5,3 +5,4 @@
 * [Return number of occurance(s) of elements in a string](./occurance.js)
 * [Return the element that occurs odd number of times](./odd.js)
 * [Swap elements of a string depending on whether they are a duplicate or not](./duplicate.js)
+* [Return a list of names in a readable manner: Max, Ed & Sam](./commaBtwNames.js)
