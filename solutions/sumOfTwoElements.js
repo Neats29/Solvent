@@ -12,5 +12,5 @@ function twoSum(numbers, target) {
 }
 
 //returns the indeces of the two elemnts that were added;
-twoSum([1,2,3, 4, 5, 6, 7], 13);
+twoSum([1, 2, 3, 4, 5, 6, 7], 13);
 //return [5 6]
