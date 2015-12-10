@@ -20,12 +20,12 @@ const odd = (xs) => xs.reduce((a, b) => a ^ b);
           delete copy[j];
        }
      }
-        if (count > 0) {
-   			var obj = {};
-   			obj.value = A[i];
-   			obj.Count = count;
-   			arr.push(obj);
- 		    }
+      if (count > 0) {
+   		var obj = {};
+   		obj.value = A[i];
+  		obj.Count = count;
+ 			arr.push(obj);
+ 	  }
    }
    var x;
    arr.filter((a, i) => a.Count % 2 !== 0 ? x = a.value : false );
