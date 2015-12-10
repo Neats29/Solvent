@@ -6,3 +6,4 @@
 * [Return the element that occurs odd number of times](./odd.js)
 * [Swap elements of a string depending on whether they are a duplicate or not](./duplicate.js)
 * [Return a list of names in a readable manner: Max, Ed & Sam](./commaBtwNames.js)
+* [Add each array element with every other element in the array](./sumOfTwoElements.js)
