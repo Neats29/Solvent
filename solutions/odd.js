@@ -8,7 +8,6 @@ const odd = (xs) => xs.reduce((a, b) => a ^ b);
 //This uses the XOR opperator, see more here: https://en.wikipedia.org/wiki/Exclusive_or
 
 
-
 //Normal (expanded answer for alternative tasks)
   var arr = []
   var copy = A.slice(0);
@@ -31,3 +30,15 @@ const odd = (xs) => xs.reduce((a, b) => a ^ b);
    arr.filter((a, i) => a.Count % 2 !== 0 ? x = a.value : false );
    return x
  }
+
+ 
+//Similar Task
+//return the letters of a string that occur odd number of times
+ 
+let oddOneOut = str => str.split('').reduce((string, a) => {
+  return string.indexOf(a) === -1 ? string + a : string.replace(a, '')}).split('');
+
+oddOneOut("Hello World") //returns ['H', 'e', ' ', 'W', 'r', 'l', 'd']
+
+ 
+ 
