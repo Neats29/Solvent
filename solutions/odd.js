@@ -35,10 +35,10 @@ const odd = (xs) => xs.reduce((a, b) => a ^ b);
 //Similar Task
 //return the letters of a string that occur odd number of times
  
-let oddOneOut = str => str.split('').reduce((string, a) => {
+let oddOne = str => str.split('').reduce((string, a) => {
   return string.indexOf(a) === -1 ? string + a : string.replace(a, '')}).split('');
 
-oddOneOut("Hello World") //returns ['H', 'e', ' ', 'W', 'r', 'l', 'd']
+oddOne("Hello World") //returns ['H', 'e', ' ', 'W', 'r', 'l', 'd']
 
  
  
