@@ -7,3 +7,4 @@
 * [Swap elements of a string depending on whether they are a duplicate or not](./solutions/duplicate.js)
 * [Return a list of names in a readable manner: Max, Ed & Sam](./solutions/commaBtwNames.js)
 * [Add each array element with every other element in the array](./solutions/sumOfTwoElements.js)
+* [Test if all array elements are integers](./solutions/intArray.js)
