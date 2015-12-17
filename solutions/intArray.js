@@ -1,7 +1,7 @@
 //If arguments is an array and all elements are integers, return true
 
 function isIntArray(arr) {
-  return Array.isArray(arr) && arr.every(function (x) { return Math.floor(x) === x });
+  return Array.isArray(arr) && arr.every(x => Math.floor(x) === x);
 }
 
 isIntArray([1, 2, 3, NaN]) //false
