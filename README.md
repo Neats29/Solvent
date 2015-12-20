@@ -8,3 +8,5 @@
 * [Return a list of names in a readable manner: Max, Ed & Sam](./solutions/commaBtwNames.js)
 * [Add each array element with every other element in the array](./solutions/sumOfTwoElements.js)
 * [Test if all array elements are integers](./solutions/intArray.js)
+* [RegExp.prototype.test()](./solutions/regex-test.js)
+
