@@ -6,6 +6,6 @@ const rps = (p1, p2) => {
   return `Player ${/rockscissors|scissorspaper|paperrock/.test(p1+p2)? 1 : 2} won!`;
 }
 
-/* this solution uses the ES6 template string and the RegExp.prototype.test() method which returns a true or false 
-depending on the regex input. 
+/* this solution uses the ES6 template string (though not essential) and the RegExp.prototype.test() method which returns a true or false 
+depending on the regex input.
 */
