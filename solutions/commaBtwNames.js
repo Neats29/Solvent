@@ -1,5 +1,5 @@
 //Given a list of names, return names in the following format: 
-//list([ {name: 'Sam}, {name: 'Matt'}, {name: 'Fred'} ])
+//list([ {name: 'Sam'}, {name: 'Matt'}, {name: 'Fred'} ])
 // should return 'Sam, Matt & Fred'
 
 function list(names){
