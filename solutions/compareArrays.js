@@ -3,7 +3,7 @@
 function presentInArray(arr1, arr2) {
   return arr1.filter(function(a1) {
     return arr2.some(function(a2) {
-      return a2.indexOf(needle) > -1;
+      return a2.indexOf(a1) > -1;
     });
   }).sort();
 }
