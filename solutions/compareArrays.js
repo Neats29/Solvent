@@ -10,8 +10,7 @@ function presentInArray(arr1, arr2) {
 
 
 
-array1 = ["arp", "live", "strong"]
+var array1 = ["home", "new", "few"]
+var array2 = ["newly", "homer", "fact", "snow"]
 
-array2 = ["lively", "alive", "harp", "sharp"]
-
-//returns: ["arp", "live"]
+//returns: ["home", "new"]
