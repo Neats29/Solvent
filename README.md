@@ -17,5 +17,6 @@ _Repetition is how we learn_
 * [RegExp.prototype.test()](./solutions/regex-test.js)
 
 ### Immutability
+* [Changing arrays without mutating them](./solutions/arrayModifications.md)
 
 
