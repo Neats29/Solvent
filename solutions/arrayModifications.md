@@ -38,15 +38,14 @@ console.log(arr) // arr = [1,3]
 #####Immutable solution:
 ``` javascript
 console.log(       
-    arr.slice(0,index)
-        .concat(arr.slice(index+1))      
+    arr.slice(0,index).concat(arr.slice(index+1))      
 ); 
 // [1,3]
 ````
 ####using the ES6 Spread operator:
 ``` javascript
 console.log(       
-[...arr.slice(0,index), 
-...list.slice(index+1)]       
-); // [1,3]
+[...arr.slice(0,index), ...list.slice(index+1)]       
+); 
+// [1,3]
 ```
