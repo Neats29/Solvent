@@ -2,19 +2,26 @@
 
 ``` javascript
 var arr = [1, 2, 3];
-var index = 1;```
-//********* 1. Add a new element to the array: ************
+var index = 1;
+```
+### 1. Add a new element to the array:
 
-//Mutable:
+>Mutable:
+``` javascript
 arr.push(4) 
-console.log(arr) // arr = [1,2,3,4] 
+console.log(arr) // arr = [1,2,3,4]
+```
 
-//Immutable solution:
+>Immutable solution:
+``` javascript
 console.log(        arr.concat([4])         ); // [1,2,3,4]
-//using the ES6 Spread operator:
+```
+>using the ES6 Spread operator:
+``` javascript
 console.log(         [...arr,4]             ); // [1,2,3,4]
+```
 
-//********* 2. Remove an element in the array: ************
+### 2. Remove an element in the array:
 
 //Mutable:
 arr.splice(1,1);
