@@ -14,7 +14,9 @@ console.log(arr) // arr = [1,2,3,4]
 
 ####Immutable solution:
 ``` javascript
-console.log(        arr.concat([4])         ); // [1,2,3,4]
+console.log(        
+    arr.concat([4])         
+); // [1,2,3,4]
 ```
 ####using the ES6 Spread operator:
 ``` javascript
