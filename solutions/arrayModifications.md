@@ -45,7 +45,7 @@ console.log(
 ####using the ES6 Spread operator:
 ``` javascript
 console.log(       
-[...arr.slice(0,index), ...list.slice(index+1)]       
+    [...arr.slice(0,index), ...list.slice(index+1)]       
 ); 
 // [1,3]
 ```
