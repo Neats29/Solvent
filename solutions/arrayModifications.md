@@ -16,11 +16,15 @@ console.log(arr) // arr = [1,2,3,4]
 ``` javascript
 console.log(        
     arr.concat([4])         
-); // [1,2,3,4]
+); 
+// [1,2,3,4]
 ```
 ####using the ES6 Spread operator:
 ``` javascript
-console.log(         [...arr,4]             ); // [1,2,3,4]
+console.log(
+    [...arr,4]             
+); 
+// [1,2,3,4]
 ```
 
 ## 2. Remove an element in the array:
@@ -33,9 +37,16 @@ console.log(arr) // arr = [1,3]
 
 #####Immutable solution:
 ``` javascript
-console.log(        arr.slice(0,index).concat(arr.slice(index+1))         ); // [1,3]
+console.log(       
+    arr.slice(0,index)
+        .concat(arr.slice(index+1))      
+); 
+// [1,3]
 ````
 ####using the ES6 Spread operator:
 ``` javascript
-console.log(       [...arr.slice(0,index), ...list.slice(index+1)]         ); // [1,3]
+console.log(       
+[...arr.slice(0,index), 
+...list.slice(index+1)]       
+); // [1,3]
 ```
