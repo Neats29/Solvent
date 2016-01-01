@@ -1,6 +1,7 @@
 //Make changes to arrays without mutating them:
 
-```var arr = [1, 2, 3];
+``` javascript
+var arr = [1, 2, 3];
 var index = 1;```
 //********* 1. Add a new element to the array: ************
 
