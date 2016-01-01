@@ -13,7 +13,7 @@ _Repetition is how we learn_
 * [Swap elements of a string depending on whether they are a duplicate or not](./solutions/duplicate.js)
 * [Return an array of names in a readable manner: Max, Ed & Sam](./solutions/commaBtwNames.js)
 
-### RegEx
+### RegExp
 * [RegExp.prototype.test()](./solutions/regex-test.js)
 
 ### Immutability
