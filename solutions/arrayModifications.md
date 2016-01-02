@@ -19,7 +19,7 @@ console.log(
 ); 
 // [1,2,3,4]
 ```
-####using the ES6 Spread operator:
+#### Using the ES6 Spread operator:
 ``` javascript
 console.log(
     [...arr,4]             
@@ -42,7 +42,7 @@ console.log(
 ); 
 // [1,3]
 ````
-####using the ES6 Spread operator:
+#### Using the ES6 Spread operator:
 ``` javascript
 console.log(       
     [...arr.slice(0,index), ...list.slice(index+1)]       
@@ -59,5 +59,18 @@ console.log(
 ); 
 // [1,3,3]
 ```
-#####Immutable solution:
 
+#####Immutable solution:
+``` javascript
+console.log(       
+   arr.slice(0, index).concat([arr[index]+1]).concat(arr.slice(index+1))
+); 
+// [1,3,3]
+```
+#### Using the ES6 Spread operator:
+``` javascript
+console.log(       
+   [...arr.slice(0, index), arr[index]+1, ...arr.slice(index+1)]
+); 
+// [1,3,3]
+```
