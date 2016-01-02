@@ -49,3 +49,15 @@ console.log(
 ); 
 // [1,3]
 ```
+
+## 3. Add 1 to the second element:
+
+#### Mutable:
+``` javascript
+console.log(       
+   arr[index]++     
+); 
+// [1,3,3]
+```
+#####Immutable solution:
+
